@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#next-button").click(function () {
-        location.href="./selectingamovie.html"
+        location.href="./makeList.html"
     })
     $("#TV-container").on("click","button",function (e) {
         if($(this).hasClass("btn-focus-grey")){
